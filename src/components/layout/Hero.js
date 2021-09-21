@@ -12,7 +12,7 @@ const Hero = () => {
             <h1>i'm Shashank</h1>
             <h4>Full Stack Web Developer</h4>
             <a
-              href='https://drive.google.com/file/d/1Q-CwQ1iFaBNehyfDKsfPpvtCdpYmYEWr/view?usp=sharing'
+              href='https://drive.google.com/file/d/1EX30HBSarAXZ0C9TWh6ZoaGay7D57wUQ/view?usp=sharing'
               target='_blank'
               className='btn'
               rel='noopener noreferrer'

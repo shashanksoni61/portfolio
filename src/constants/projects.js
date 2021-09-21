@@ -1,8 +1,50 @@
 import img1 from '../img/project-dev-connector.jpg';
 import img2 from '../img/project-forkify.jpg';
 import img3 from '../img/project-trillo.jpg';
-import img4 from '../img/project-nexter.jpg';
+import img5 from '../img/contact-book.jpg';
+import img6 from '../img/tech-space.jpg';
+import img7 from '../img/tech-shop.jpg';
+
 const projects = [
+  {
+    id: 7,
+    img: img7,
+    title: 'TechShop - React Eommerce',
+    url: 'https://techshop-shashank.herokuapp.com/',
+    github: 'https://github.com/shashanksoni61/react-ecommerce',
+    description:
+      'eCommerce platform built with the MERN stack & Redux. Users can make purchases, review products, rate them.',
+    type: 'Full Stack',
+    stack: [
+      'React',
+      'Redux',
+      'Razorpay API',
+      'bootstrap',
+      'MongoDB',
+      'NodeJS',
+      'Express, ',
+    ],
+  },
+  {
+    id: 6,
+    img: img6,
+    title: 'Tech Space - Blog',
+    url: 'https://tech-space-blog.vercel.app/',
+    github: 'https://github.com/shashanksoni61/TechSpace-blog',
+    description: 'simple blog project using Next Js',
+    type: 'Full Stack',
+    stack: ['NExt JS', 'Tailwind CSS', 'React-Markdown'],
+  },
+  {
+    id: 5,
+    img: img5,
+    title: 'Contact-Book',
+    url: 'https://contact-book-shashank61.herokuapp.com',
+    github: 'https://github.com/shashanksoni61/Contact-Book',
+    description: 'simple blog project using Next Js',
+    type: 'Full Stack',
+    stack: ['NExt JS', 'Tailwind CSS', 'React-Markdown'],
+  },
   {
     id: 1,
     img: img1,
@@ -32,16 +74,6 @@ const projects = [
     github: 'https://github.com/shashanksoni61/Trillo-Css',
     type: 'CSS / Design',
     description: `Designed Based Project where I designed the front-end of the project.`,
-    stack: ['HTML', 'CSS'],
-  },
-  {
-    id: 4,
-    img: img4,
-    title: 'Nexter - House Booking',
-    url: 'https://nexter-s-css.netlify.app/',
-    github: 'https://github.com/shashanksoni61/DevConnector',
-    type: 'CSS / Design',
-    description: `Designed Based Project where I Designed the Front-end of the project.`,
     stack: ['HTML', 'CSS'],
   },
 ];
