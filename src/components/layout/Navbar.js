@@ -8,7 +8,8 @@ const Navbar = () => {
     <nav className='navbar'>
       <div className='nav-center'>
         <div className='nav-header'>
-          <img src={logo} alt='' />
+          <h1>{`<Shashank />`}</h1>
+          {/* <img src={logo} alt='' /> */}
           {/* <button className='toggle-btn' type='button' onClick={showNav}>
             <RiMenu3Fill />
           </button> */}

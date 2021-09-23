@@ -147,6 +147,10 @@ a {
   justify-content: space-between;
 }
 
+.nav-header h1 {
+  color: var(--clr-primary-5);
+}
+
 .display-none {
   display: none;
 }
