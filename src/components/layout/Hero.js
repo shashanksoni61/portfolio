@@ -1,33 +1,35 @@
-import React from 'react';
-import heroImg from '../../img/hero.svg';
-import socialLinks from '../../constants/social_links';
+import React from "react";
+import heroImg from "../../img/hero.svg";
+import socialLinks from "../../constants/social_links";
 
 const Hero = () => {
   return (
-    <header className='hero'>
-      <section className='section-center hero-center'>
-        <article className='hero-info'>
+    <header className="hero">
+      <section className="section-center hero-center">
+        <article className="hero-info">
           <div>
-            <div className='underline'></div>
+            <div className="underline"></div>
             <h1>i'm Shashank</h1>
             <h4>Full Stack Web Developer</h4>
             <a
-              href='https://drive.google.com/file/d/1EX30HBSarAXZ0C9TWh6ZoaGay7D57wUQ/view?usp=sharing'
-              target='_blank'
-              className='btn'
-              rel='noopener noreferrer'
+              // href='https://drive.google.com/file/d/1EX30HBSarAXZ0C9TWh6ZoaGay7D57wUQ/view?usp=sharing'
+              href="/shashank-soni-resume.pdf"
+              download={true}
+              // target="_blank"
+              className="btn"
+              // rel="noopener noreferrer"
             >
               Resume
             </a>
-            <div className='social-links'>
-              {socialLinks.map(link => {
+            <div className="social-links">
+              {socialLinks.map((link) => {
                 return (
                   <a
                     href={link.url}
                     key={link.id}
-                    target='_blank'
-                    className='social-link'
-                    rel='noopener noreferrer'
+                    target="_blank"
+                    className="social-link"
+                    rel="noopener noreferrer"
                   >
                     {link.icon}
                   </a>
@@ -39,9 +41,9 @@ const Hero = () => {
         {
           <img
             src={heroImg}
-            alt='portfolio'
-            className='hero-img'
-            placeholder='blurred'
+            alt="portfolio"
+            className="hero-img"
+            placeholder="blurred"
           />
         }
         {/* <img src={heroImg} alt="portfolio" className="hero-img-svg" /> */}
