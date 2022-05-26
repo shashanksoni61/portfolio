@@ -9,7 +9,7 @@ const projects = [
   {
     id: 1,
     img: img7,
-    title: 'TechShop - React Eommerce',
+    title: 'TechShop - React E-Commerce',
     url: 'https://techshop-shashank.herokuapp.com/',
     github: 'https://github.com/shashanksoni61/react-ecommerce',
     description:
